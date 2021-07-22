@@ -1,12 +1,12 @@
-import Header from './Header'
+import React from "react"
+import { Header } from "./Header"
 
-const Layout: React.FC = ({ children }) => {
+const Layout: React.FC = ({children}) => {
   return (
-    <div className="mx-auto max-w-5xl px-4 sm:px-6 md:px-8">
+    <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8">
       <Header />
-      {children}
-    </div>
+      {children}</div>
   )
 }
 
-export default Layout
+export default Layout;
